@@ -1,0 +1,4 @@
+polkit
+linux-headers
+nvidia-open-dkms
+flatpak
