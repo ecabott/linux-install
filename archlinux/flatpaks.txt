@@ -1,1 +1,1 @@
-com.google.Chrome
+org.mozilla.firefox
