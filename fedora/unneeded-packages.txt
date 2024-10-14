@@ -1,0 +1,6 @@
+firefox
+libreoffice-core
+rhythmbox
+totem
+mediawriter
+simple-scan
