@@ -1,1 +1,11 @@
 org.mozilla.firefox
+com.mattjakeman.ExtensionManager
+com.github.tchx84.Flatseal
+io.github.flattool.Warehouse
+com.github.wwmm.easyeffects
+com.spotify.Client
+com.stremio.Stremio
+dev.zed.Zed
+org.videolan.VLC
+org.prismlauncher.PrismLauncher
+com.vysp3r.ProtonPlus
