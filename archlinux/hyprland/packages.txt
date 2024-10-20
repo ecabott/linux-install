@@ -1,0 +1,5 @@
+hyprland
+hyprpaper
+waybar
+wofi
+kitty
