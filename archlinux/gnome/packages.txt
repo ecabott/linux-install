@@ -1,0 +1,4 @@
+gdm
+gnome-control-center
+gnome-backgrounds
+gnome-software
