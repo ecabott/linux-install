@@ -1,4 +1,4 @@
-polkit
 linux-headers
 nvidia-open-dkms
+xorg-server
 flatpak
