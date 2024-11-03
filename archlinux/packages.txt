@@ -1,4 +1,8 @@
-linux-headers
-nvidia-open-dkms
+nvidia-open
 xorg-server
 flatpak
+nano
+alacarte
+timeshift
+steam
+discord
