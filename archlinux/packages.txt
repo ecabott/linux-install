@@ -1,5 +1,7 @@
 nvidia-open
+switcheroo-control
 xorg-server
+fwupd
 flatpak
 nano
 alacarte
