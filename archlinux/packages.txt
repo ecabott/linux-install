@@ -1,10 +1,9 @@
-nvidia-open
-switcheroo-control
 xorg-server
+switcheroo-control
 fwupd
 flatpak
 nano
-alacarte
 timeshift
-steam
-discord
+noto-fonts
+noto-fonts-emoji
+noto-fonts-cjk

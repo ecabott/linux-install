@@ -21,3 +21,4 @@ loupe
 nautilus
 snapshot
 sushi
+alacarte
