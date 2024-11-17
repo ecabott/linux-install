@@ -22,3 +22,4 @@ nautilus
 snapshot
 sushi
 alacarte
+switcheroo-control

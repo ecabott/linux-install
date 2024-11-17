@@ -1,5 +1,4 @@
 xorg-server
-switcheroo-control
 fwupd
 flatpak
 nano
