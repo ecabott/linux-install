@@ -1,27 +1,39 @@
 # archlinux
 
-# edit kernel parameters for specific preset
+## kernel parameters
 
-Append `--quiet` to `/etc/mkinitcpio.d/linux.preset` in `default_options` to disable verbose during the boot screen for that uki only
+Quiet boot: `quiet`
 
-# disable watchdog
+Disable watchdog: `nowatchdog`
 
-See watchdog status with `cat /proc/sys/kernel/watchdog`
+Disable Intel TCO hardware watchdog: `module_blacklist=iTCO_wdt`
 
-See watchdog device status with `wdctl`
+### edit kernel parameters of a specific boot entry
 
-Add `nowatchdog` to `/etc/kernel/cmdline` to disable watchdog
+Add kernel parameters to `/boot/loader/entries/archlinux.conf` in `options`
 
-For Intel TCO hardware watchdog, blacklist the module resposible for watchdog by adding `module_blacklist=iTCO_wdt` to `/etc/kernel/cmdline`
+### edit kernel parameters of a specific unified kernel image(uki)
 
-# bootloader display timeout
+Add kernel parameters to `/etc/mkinitcpio.d/linux.preset` in `default_options`
 
-Change timeout to 0 in `/boot/loader/loader.conf` to not display the bootloader menu during boot
-
-# rebuild the uki
+The uki must me rebuilt for the kernel parameters to take effect
 
 After performing all your kernel parameter modifications, rebuild the uki
 
 ```
 sudo mkinitcpio -p linux
 ```
+
+### watchdog status
+
+See watchdog status with `cat /proc/sys/kernel/watchdog`
+
+See watchdog device status with `wdctl`
+
+### bootloader display timeout
+
+Change timeout to 0 in `/boot/loader/loader.conf` to not display the bootloader menu during boot
+
+## other
+
+Change `PresentationIdentity` in `~/.config/goa-1.0/accounts.conf` from `email address` to a general term like `Google`
