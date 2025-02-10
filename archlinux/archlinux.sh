@@ -14,7 +14,9 @@ do
             xargs sudo systemctl enable < gnome/services.txt
             break;;
         "hyprland")
-            echo "Installation of $option not yet implemented"
+            echo "Installing $option."
+            sudo pacman -S --needed --noconfirm - < hyprland/packages.txt
+            cp -r hyprland/dotfiles/.config ~
             break;;
         *)
             echo "Invalid selection, skipping"
