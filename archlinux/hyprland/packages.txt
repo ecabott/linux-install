@@ -4,5 +4,6 @@ hyprpolkitagent
 xorg-xhost
 hyprpaper
 waybar
+ttf-font-awesome
 wofi
 kitty
