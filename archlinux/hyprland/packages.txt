@@ -1,5 +1,7 @@
 hyprland
 xdg-desktop-portal-hyprland
+hyprpolkitagent
+xorg-xhost
 hyprpaper
 waybar
 wofi
