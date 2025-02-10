@@ -2,3 +2,4 @@ org.mozilla.firefox
 com.github.tchx84.Flatseal
 io.github.flattool.Warehouse
 org.videolan.VLC
+org.qbittorrent.qBittorrent

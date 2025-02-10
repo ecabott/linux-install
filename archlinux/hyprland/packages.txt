@@ -1,4 +1,5 @@
 hyprland
+xdg-desktop-portal-hyprland
 hyprpaper
 waybar
 wofi
