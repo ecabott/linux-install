@@ -1,5 +1,6 @@
 hyprland
 xdg-desktop-portal-hyprland
+xdg-desktop-portal-gtk
 hyprpolkitagent
 xorg-xhost
 hyprpaper
