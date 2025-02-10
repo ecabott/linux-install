@@ -1,0 +1,7 @@
+Alphabetical App Grid
+AppIndicator
+Blur my Shell
+Clipboard Indicator
+GSConnect
+Vitals
+Emoji Copy
