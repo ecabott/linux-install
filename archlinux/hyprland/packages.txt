@@ -6,5 +6,5 @@ xorg-xhost
 hyprpaper
 waybar
 ttf-font-awesome
-wofi
+rofi-wayland
 kitty
