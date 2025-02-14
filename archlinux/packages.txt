@@ -5,6 +5,7 @@ timeshift
 noto-fonts
 noto-fonts-emoji
 noto-fonts-cjk
+gnome-themes-extra
 git
 zsh
 man
