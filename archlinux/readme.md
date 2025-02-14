@@ -92,7 +92,7 @@ Add `session optional pam_gnome_keyring.so auto_start` at the end of `session` s
 
 Edit `/etc/pam.d/passwd`
 
-`password optional pam_gnome_keyring.so`
+Add `password optional pam_gnome_keyring.so`
 
 Gnome keyring can me managed through `seahorse` gui application
 
