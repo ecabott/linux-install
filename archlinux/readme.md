@@ -70,6 +70,32 @@ For more info:
 
 `sudo intel-undervolt read`
 
-## other
+## gnome
+
+### gnome google account integration
 
 Change `PresentationIdentity` in `~/.config/goa-1.0/accounts.conf` from `email address` to a general term like `Google`
+
+## hyprland
+
+### setup gnome keyring
+
+#### To autounlock the login keyring for console based login
+
+Edit `/etc/pam.d/login`
+
+Add `auth optional pam_gnome_keyring.so` at the end of `auth` section
+
+Add `session optional pam_gnome_keyring.so auto_start` at the end of `session` section
+
+#### To automatically change keyring password with user password for the login keyring
+
+Edit `/etc/pam.d/passwd`
+
+`password optional pam_gnome_keyring.so`
+
+Gnome keyring can me managed through `seahorse` gui application
+
+### make vscode use gnome keyring
+
+Add `"password-store": "gnome-libsecret"` to `~/.vscode/argv.json`
