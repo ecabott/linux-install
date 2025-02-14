@@ -1,38 +1,38 @@
 * {
-    border: none;
-    font-family: Font Awesome;
-    font-size: 14px;
-    color: #ffffff;
-    border-radius: 20px;
+  border: none;
+  font-family: JetBrainsMono;
+  font-size: 14px;
+  color: #ffffff;
+  border-radius: 20px;
 }
 
 window {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 window#waybar {
-    background: transparent;
+  background: transparent;
 }
 
 .modules-right {
-    margin: 2px 10px 0 0;
+  margin: 2px 10px 0 0;
 }
 
 .modules-left {
-    margin: 2px 0 0 5px;
+  margin: 2px 0 0 5px;
 }
 
 #workspaces button {
-    padding: 1px 5px;
+  padding: 1px 5px;
 }
 
 #workspaces button:hover {
-    background: transparent;
-    background-color: transparent;
+  background: transparent;
+  background-color: transparent;
 }
 
 #workspaces button.active {
-    background-color: black;
+  background-color: black;
 }
 
 #clock,
@@ -44,45 +44,45 @@ window#waybar {
 #window,
 #custom-power,
 #idle_inhibitor {
-    padding: 0 10px;
+  padding: 0 10px;
 }
 
 #tray menu {
-    background: #222222;
+  background: #222222;
 }
 
 #submap {
-    color: #cc3436;
-    font-weight: bold;
+  color: #cc3436;
+  font-weight: bold;
 }
 
 #custom-power {
-    background-color: transparent;
-    border-radius: 100px;
-    margin: 5px 5px;
-    padding: 1px 1px 1px 6px;
+  background-color: transparent;
+  border-radius: 100px;
+  margin: 5px 5px;
+  padding: 1px 1px 1px 6px;
 }
 
 #idle_inhibitor.activated {
-    color: #2dcc36;
+  color: #2dcc36;
 }
 
 #pulseaudio.muted {
-    color: #cc3436;
+  color: #cc3436;
 }
 
 #battery.charging {
-    color: #2dcc36;
+  color: #2dcc36;
 }
 
 #battery.warning:not(.charging) {
-    color: #e6e600;
+  color: #e6e600;
 }
 
 #battery.critical:not(.charging) {
-    color: #cc3436;
+  color: #cc3436;
 }
 
 #temperature.critical {
-    color: #cc3436;
+  color: #cc3436;
 }
