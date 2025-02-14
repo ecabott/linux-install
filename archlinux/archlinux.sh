@@ -31,4 +31,7 @@ case $choice in
 *) echo "Invalid selection, skipping" ;;
 esac
 
+echo "Installing Oh My Zsh"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 echo Done!
