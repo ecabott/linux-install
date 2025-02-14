@@ -2,10 +2,12 @@ hyprland
 xdg-desktop-portal-hyprland
 xdg-desktop-portal-gtk
 polkit-gnome
+gnome-keyring
 xorg-xhost
 hyprpaper
 waybar
 ttf-font-awesome
+ttf-jetbrains-mono
 rofi-wayland
 kitty
 nautilus
