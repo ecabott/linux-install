@@ -1,7 +1,7 @@
 hyprland
 xdg-desktop-portal-hyprland
 xdg-desktop-portal-gtk
-hyprpolkitagent
+polkit-gnome
 xorg-xhost
 hyprpaper
 waybar
