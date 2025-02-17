@@ -11,3 +11,5 @@ ttf-jetbrains-mono
 rofi-wayland
 kitty
 nautilus
+pavucontrol
+brightnessctl
