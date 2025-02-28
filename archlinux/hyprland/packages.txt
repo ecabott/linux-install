@@ -5,6 +5,8 @@ polkit-gnome
 gnome-keyring
 xorg-xhost
 hyprpaper
+hyprlock
+hypridle
 waybar
 ttf-font-awesome
 ttf-jetbrains-mono
