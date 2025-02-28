@@ -16,7 +16,7 @@ do
         "hyprland")
             echo "Installing $option."
             sudo pacman -S --needed --noconfirm - < hyprland/packages.txt
-            cp -r hyprland/dotfiles/.config ~
+            cp -r hyprland/dotfiles/.* ~
             break;;
         *)
             echo "Invalid selection, skipping"
