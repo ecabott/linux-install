@@ -15,3 +15,4 @@ kitty
 nautilus
 pavucontrol
 brightnessctl
+dunst
