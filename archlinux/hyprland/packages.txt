@@ -10,6 +10,7 @@ hypridle
 waybar
 ttf-font-awesome
 ttf-jetbrains-mono
+ttf-jetbrains-mono-nerd
 rofi-wayland
 kitty
 nautilus
