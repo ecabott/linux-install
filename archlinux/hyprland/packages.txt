@@ -8,6 +8,7 @@ hyprpaper
 hyprlock
 hypridle
 waybar
+network-manager-applet
 ttf-font-awesome
 ttf-jetbrains-mono
 ttf-jetbrains-mono-nerd
