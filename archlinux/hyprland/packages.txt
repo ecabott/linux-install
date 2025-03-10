@@ -21,3 +21,5 @@ pavucontrol
 brightnessctl
 dunst
 cliphist
+grim
+slurp
