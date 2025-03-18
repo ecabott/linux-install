@@ -19,6 +19,7 @@ kitty
 nautilus
 pavucontrol
 brightnessctl
+libnotify
 dunst
 cliphist
 grim
