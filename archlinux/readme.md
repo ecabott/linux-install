@@ -14,7 +14,9 @@ Add kernel parameters to `/boot/loader/entries/archlinux.conf` in `options`
 
 ### edit kernel parameters of a specific unified kernel image(uki)
 
-Add kernel parameters to `/etc/mkinitcpio.d/linux.preset` in `default_options`
+Add kernel parameters to `/etc/cmdline.d/my_cmdline.conf`
+
+In `/etc/mkinitcpio.d/linux.preset` append `--cmdline /etc/kernel/cmdline` to `fallback_options` to not use the above cmdline for the fallback image (e.g. without quiet).
 
 The uki must me rebuilt for the kernel parameters to take effect
 
