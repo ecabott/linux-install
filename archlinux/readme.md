@@ -101,3 +101,13 @@ Gnome keyring can me managed through `seahorse` gui application
 ### make vscode use gnome keyring
 
 Add `"password-store": "gnome-libsecret"` to `~/.vscode/argv.json`
+
+### edit power button action
+
+Edit `/etc/systemd/logind.conf`
+
+In the `[Login]` section uncomment `HandlePowerKey` and change its value to `ignore`
+
+Reboot
+
+Now, power button works as defined in your hyprland keybinds.
