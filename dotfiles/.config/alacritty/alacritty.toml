@@ -1,0 +1,4 @@
+[window]
+opacity = 0.5
+blur = false
+padding = { x = 5, y = 5 }
