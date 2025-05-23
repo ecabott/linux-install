@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 sudo pacman -S --needed --noconfirm gdm gvfs-google gvfs-mtp alacritty nvim zsh git timeshift switcheroo-control gnome-control-center fwupd nvidia-open gnome-backgrounds flatpak gnome-software noto-fonts noto-fonts-emoji noto-fonts-cjk ttf-liberation gnome-shell-extension-appindicator
 flatpak install -y org.mozilla.firefox com.mattjakeman.ExtensionManager
 sudo systemctl enable gdm bluetooth switcheroo-control
@@ -13,4 +13,7 @@ cp -r dotfiles/.config/hypr ~/.config
 cp -r dotfiles/.config/waybar ~/.config
 cp -r dotfiles/.config/rofi ~/.config
 hyprctl reload
-echo "done!"
+killall waybar
+hyprctl dispatch exec waybar
+
+echo "done"
