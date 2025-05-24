@@ -5,13 +5,15 @@ sudo systemctl enable gdm bluetooth switcheroo-control
 
 sudo pacman -S --needed --noconfirm hyprland hyprpaper hypridle hyprlock waybar rofi-wayland
 echo "removing config"
+rm -rf ~/.config/alacritty
 rm -rf ~/.config/hypr
-rm -rf ~/.config/waybar
 rm -rf ~/.config/rofi
+rm -rf ~/.config/waybar
 echo "copying config"
+cp -r dotfiles/.config/alacritty ~/.config
 cp -r dotfiles/.config/hypr ~/.config
-cp -r dotfiles/.config/waybar ~/.config
 cp -r dotfiles/.config/rofi ~/.config
+cp -r dotfiles/.config/waybar ~/.config
 hyprctl reload
 killall waybar
 hyprctl dispatch exec waybar
