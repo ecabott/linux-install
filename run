@@ -3,7 +3,7 @@ sudo pacman -S --needed --noconfirm gdm gnome-themes-extra gvfs-google gvfs-mtp 
 flatpak install -y org.mozilla.firefox com.mattjakeman.ExtensionManager
 sudo systemctl enable gdm bluetooth switcheroo-control
 
-sudo pacman -S --needed --noconfirm hyprland hyprpaper hypridle hyprlock waybar rofi-wayland grim slurp cliphist pavucontrol brightnessctl
+sudo pacman -S --needed --noconfirm hyprland hyprpaper hypridle hyprlock xdg-desktop-portal-hyprland polkit-gnome waybar rofi-wayland grim slurp cliphist pavucontrol brightnessctl
 echo "removing config"
 rm -rf ~/.config/alacritty
 rm -rf ~/.config/hypr
