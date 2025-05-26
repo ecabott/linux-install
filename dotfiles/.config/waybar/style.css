@@ -37,12 +37,11 @@ window#waybar {
 
 #clock,
 #battery,
-#network,
 #pulseaudio,
 #tray,
-#submap,
 #window,
 #custom-power,
+#power-profiles-daemon,
 #idle_inhibitor {
   padding: 0 10px;
 }

@@ -4,6 +4,7 @@
   "modules-right": [
     "tray",
     "idle_inhibitor",
+    "power-profiles-daemon",
     "pulseaudio",
     "battery",
     "custom/power"
@@ -31,6 +32,17 @@
       "deactivated": ""
     }
   },
+  "power-profiles-daemon": {
+  "format": "{icon}",
+  "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
+  "tooltip": true,
+  "format-icons": {
+    "default": "",
+    "performance": "",
+    "balanced": "",
+    "power-saver": ""
+  }
+},
   "pulseaudio": {
     "format": "{volume}% {icon} ",
     "format-bluetooth": "{volume}% {icon} {format_source}",
