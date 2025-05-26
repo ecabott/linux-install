@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-sudo pacman -S --needed --noconfirm gdm gnome-system-monitor gnome-themes-extra gvfs-google gvfs-mtp alacritty nvim zsh git timeshift switcheroo-control gnome-control-center ibus-typing-booster fwupd nvidia-open gnome-backgrounds flatpak gnome-software noto-fonts noto-fonts-emoji noto-fonts-cjk ttf-liberation ttf-jetbrains-mono-nerd gnome-shell-extension-appindicator
+sudo pacman -S --needed --noconfirm gdm gnome-system-monitor gnome-themes-extra gvfs-google gvfs-mtp alacritty nvim zsh git timeshift switcheroo-control gnome-control-center ibus-typing-booster fwupd nvidia-open gnome-backgrounds flatpak gnome-software noto-fonts noto-fonts-emoji noto-fonts-cjk ttf-liberation ttf-jetbrains-mono-nerd gnome-shell-extension-appindicator power-profiles-daemon
 flatpak install -y org.mozilla.firefox com.mattjakeman.ExtensionManager org.gnome.Calculator org.gnome.Calendar org.gnome.Contacts org.gnome.Loupe org.gnome.Snapshot org.gnome.Weather org.gnome.baobab org.gnome.Papers org.gnome.TextEditor
 sudo systemctl enable gdm bluetooth switcheroo-control
 
