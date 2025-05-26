@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-sudo pacman -S --needed --noconfirm gdm gnome-themes-extra gvfs-google gvfs-mtp alacritty nvim zsh git timeshift switcheroo-control gnome-control-center fwupd nvidia-open gnome-backgrounds flatpak gnome-software noto-fonts noto-fonts-emoji noto-fonts-cjk ttf-liberation ttf-jetbrains-mono-nerd gnome-shell-extension-appindicator
-flatpak install -y org.mozilla.firefox com.mattjakeman.ExtensionManager
+sudo pacman -S --needed --noconfirm gdm gnome-system-monitor gnome-themes-extra gvfs-google gvfs-mtp alacritty nvim zsh git timeshift switcheroo-control gnome-control-center ibus-typing-booster fwupd nvidia-open gnome-backgrounds flatpak gnome-software noto-fonts noto-fonts-emoji noto-fonts-cjk ttf-liberation ttf-jetbrains-mono-nerd gnome-shell-extension-appindicator
+flatpak install -y org.mozilla.firefox com.mattjakeman.ExtensionManager org.gnome.Calculator org.gnome.Calendar org.gnome.Contacts org.gnome.Loupe org.gnome.Snapshot org.gnome.Weather org.gnome.baobab org.gnome.Papers org.gnome.TextEditor
 sudo systemctl enable gdm bluetooth switcheroo-control
 
 sudo pacman -S --needed --noconfirm hyprland hyprpaper hypridle hyprlock xdg-desktop-portal-hyprland polkit-gnome waybar network-manager-applet rofi-wayland rofimoji wtype grim slurp cliphist pavucontrol brightnessctl xorg-xhost
