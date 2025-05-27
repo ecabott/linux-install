@@ -32,7 +32,7 @@ window#waybar {
 }
 
 #workspaces button.active {
-  background-color: black;
+  background-color: #222222;
 }
 
 #clock,
