@@ -18,8 +18,9 @@
     "max-length": 50
   },
   "clock": {
-    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-    "format-alt": "{:%Y-%m-%d}"
+    "tooltip-format": "<big>{calendar}</big>",
+    "format-alt": "{:%Y-%m-%d}",
+    "calendar": {"format": {"today": "<b><u>{}</u></b>"}}
   },
   "tray": {
     "icon-size": 15,
