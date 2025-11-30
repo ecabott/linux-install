@@ -1,4 +1,6 @@
-# archlinux
+# linux-install
+
+Supported distro: Arch Linux
 
 ## kernel parameters
 
