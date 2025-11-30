@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 sudo pacman -S --needed --noconfirm - < packages
-sudo pacman -S --needed --noconfirm hyprland-packages
+sudo pacman -S --needed --noconfirm - < hyprland-packages
 xargs flatpak install -y < flatpaks
 xargs sudo systemctl enable < services
 
