@@ -1,3 +1,0 @@
-gdm.service
-switcheroo-control.service
-bluetooth.service

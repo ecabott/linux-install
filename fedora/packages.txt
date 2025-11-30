@@ -1,7 +1,0 @@
-akmod-nvidia
-xorg-x11-drv-nvidia-cuda
-fastfetch
-steam
-mangohud
-gamescope
-discord

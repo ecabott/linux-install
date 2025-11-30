@@ -1,0 +1,6 @@
+################
+### MONITORS ###
+################
+
+# See https://wiki.hypr.land/Configuring/Monitors/
+monitor=,preferred,auto,1

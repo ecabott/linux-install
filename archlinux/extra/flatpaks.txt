@@ -1,6 +1,0 @@
-org.prismlauncher.PrismLauncher
-com.github.wwmm.easyeffects
-com.spotify.Client
-com.stremio.Stremio
-dev.zed.Zed
-com.vysp3r.ProtonPlus

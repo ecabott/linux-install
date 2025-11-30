@@ -1,4 +1,0 @@
-steam
-discord
-xorg-server
-scrcpy

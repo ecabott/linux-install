@@ -1,5 +1,0 @@
-com.github.tchx84.Flatseal
-io.github.flattool.Warehouse
-org.mozilla.firefox
-org.videolan.VLC
-org.qbittorrent.qBittorrent
