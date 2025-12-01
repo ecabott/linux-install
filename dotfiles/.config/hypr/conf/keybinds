@@ -20,7 +20,7 @@ bind = $mainMod, PERIOD, exec, cliphist list | rofi -dmenu | cliphist decode | w
 bind = $mainMod SHIFT, PERIOD, exec, cliphist list | rofi -dmenu | cliphist delete
 bind = $mainMod SHIFT CTRL, PERIOD, exec, cliphist wipe
 bind = CTRL, PERIOD, exec, rofimoji -a type copy
-bind = $mainMod, L, exec, loginctl lock-session
+bind = $mainMod SHIFT, L, exec, loginctl lock-session
 bind = $mainMod, P, exec, rofi -show power-menu -modi power-menu:~/.config/rofi/rofi-power-menu
 bind = , XF86PowerOff, exec, rofi -show power-menu -modi power-menu:~/.config/rofi/rofi-power-menu
 bind = , Print, exec, IMG=~/Pictures/$(date +%Y-%m-%d_%H-%M-%S).png && grim -g "$(slurp -d)" $IMG && wl-copy < $IMG && notify-send "Screenshot saved"
