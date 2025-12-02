@@ -12,6 +12,7 @@ wtype
 grim
 slurp
 cliphist
+wl-clip-persist
 pavucontrol
 brightnessctl
 xorg-xhost

@@ -8,4 +8,5 @@
 exec-once = waybar & hyprpaper & hypridle & dunst & nm-applet
 exec-once = wl-paste --type text --watch cliphist store
 exec-once = wl-paste --type image --watch cliphist store
+exec-once = wl-clip-persist --clipboard regular
 exec-once = /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
