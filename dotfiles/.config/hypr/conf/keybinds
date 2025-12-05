@@ -3,7 +3,7 @@
 ###################
 
 # See https://wiki.hyprland.org/Configuring/Keywords/
-$mainMod = ALT # Sets this key as main modifier
+$mainMod = SUPER # Sets this key as the main modifier
 
 # My binds
 bind = $mainMod, ESCAPE, submap, clean
