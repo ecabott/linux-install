@@ -27,12 +27,26 @@ window#waybar {
 }
 
 #workspaces button:hover {
-  background: transparent;
-  background-color: transparent;
+  background-color: #222222;
 }
 
 #workspaces button.active {
   background-color: #222222;
+}
+
+#workspaces button.urgent {
+    background-color: transparent;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes blink {
+    to {
+        background-color: #880000;
+    }
 }
 
 #clock,
