@@ -27,11 +27,11 @@ window#waybar {
 }
 
 #workspaces button:hover {
-  background-color: #222222;
+  background: #222222;
 }
 
 #workspaces button.active {
-  background-color: #222222;
+  background-color: #444444;
 }
 
 #workspaces button.urgent {
